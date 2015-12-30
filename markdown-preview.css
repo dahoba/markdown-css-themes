@@ -1,13 +1,14 @@
+
 body {
-  width: 45em;
+  width: 100%;
   border: 1px solid #ddd;
   outline: 1300px solid #fff;
-  margin: 16px auto;
+  margin: 9px auto;
 }
 
 body .markdown-body
 {
-  padding: 30px;
+  padding: 15px;
 }
 
 @font-face {
@@ -27,7 +28,7 @@ body .markdown-body
   color: #333333;
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-  font-size: 16px;
+  font-size: 9px;
   line-height: 1.6;
   word-wrap: break-word;
 }
@@ -90,7 +91,7 @@ body .markdown-body
 .markdown-body kbd,
 .markdown-body pre,
 .markdown-body samp {
-  font-family: monospace, monospace;
+  font-family: Consolas, monospace;
   font-size: 1em;
 }
 
@@ -187,7 +188,7 @@ body .markdown-body
 }
 
 .markdown-body input {
-  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 8px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.4;
 }
 
@@ -204,7 +205,7 @@ body .markdown-body
 
 .markdown-body hr {
   height: 0;
-  margin: 15px 0;
+  margin: 7px 0;
   overflow: hidden;
   background: transparent;
   border: 0;
@@ -227,33 +228,33 @@ body .markdown-body
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   line-height: 1.1;
 }
 
 .markdown-body h1 {
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .markdown-body h2 {
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .markdown-body h3 {
-  font-size: 16px;
-}
-
-.markdown-body h4 {
   font-size: 14px;
 }
 
-.markdown-body h5 {
+.markdown-body h4 {
   font-size: 12px;
 }
 
+.markdown-body h5 {
+  font-size: 9px;
+}
+
 .markdown-body h6 {
-  font-size: 11px;
+  font-size: 8px;
 }
 
 .markdown-body blockquote {
@@ -287,7 +288,7 @@ body .markdown-body
 .markdown-body pre,
 .markdown-body samp {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .markdown-body pre {
@@ -306,7 +307,7 @@ body .markdown-body
   color: #000;
   padding: 3px 5px;
   line-height: 10px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font: 8px Consolas, "Liberation Mono", Menlo, Courier, monospace;
   display: inline-block;
 }
 
@@ -638,7 +639,7 @@ body .markdown-body
 .markdown-body .danger:before,
 .markdown-body .question:before,
 .markdown-body .note:before {
-  font: normal normal 16px fontawesome-mini;
+  font: normal normal 9px fontawesome-mini;
   -moz-osx-font-smoothing: grayscale;
   -webkit-user-select: none;
   -moz-user-select: none;
